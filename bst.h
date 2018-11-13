@@ -18,6 +18,7 @@ class BST{
         bool isEmpty();
         void printTree(ostream & out = cout) const;
         void buildTree(ifstream & input);
+        void timeTree(ifstream & input);
     private:
     struct node{
 	    node(const string &x, node *l, node *r)
